@@ -1,0 +1,110 @@
+@media screen and (max-width: 1140px) {
+  .content__container {
+    max-width: 90%;
+  }
+}
+@media screen and (max-width: 850px) {
+  .time {
+    font-size: 175px;
+    line-height: 175px;
+  }
+  .bst {
+    font-size: 32px;
+  }
+  .btn {
+    margin-top: 80px;
+  }
+  .time-content {
+    padding-top: 80px;
+  }
+  .menu-open .time-content {
+    padding-top: 153px;
+  }
+  .content-item__text {
+    font-size: 40px;
+    line-height: 48px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main-content__container {
+    flex-direction: column;
+  }
+  .dark .right-content,
+  .right-content {
+    border-width: 0;
+  }
+  .right-content .content-item {
+    margin-left: 0px;
+  }
+
+  .content-item {
+    margin-bottom: 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 650px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .time-content {
+    padding-top: 32px;
+  }
+  .menu-open .time-content {
+    padding-top: 99px;
+  }
+  .quotes__words {
+    font-size: 12px;
+    line-height: 22px;
+  }
+  .quoste__author {
+    font-size: 12px;
+    line-height: 22px;
+  }
+  .good-time__text {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .currently {
+    display: none;
+  }
+  .time {
+    font-size: 100px;
+    line-height: 100px;
+  }
+  .bst {
+    font-size: 15px;
+    line-height: 28px;
+  }
+  .quotes {
+    margin-bottom: 120px;
+  }
+  .btn {
+    justify-content: flex-start;
+  }
+  .inCity {
+    display: block;
+  }
+  .content-item__text {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .content-item__title {
+    font-size: 10px;
+    line-height: 28px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .content-item {
+    display: block;
+    text-align: center;
+  }
+  .time {
+    font-size: 75px;
+    line-height: 75px;
+  }
+}
