@@ -60,6 +60,7 @@
   .quotes__words {
     font-size: 12px;
     line-height: 22px;
+    max-width: 85%;
   }
   .quoste__author {
     font-size: 12px;
@@ -104,7 +105,7 @@
     text-align: center;
   }
   .time {
-    font-size: 75px;
-    line-height: 75px;
+    font-size: 70px;
+    line-height: 70px;
   }
 }
